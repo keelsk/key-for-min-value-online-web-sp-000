@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
   num = []
   num = name_hash.collect do |key, value|
     value
-  binding.pry
   end
+  binding.pry
   minimum = num[0]
   name_hash.each do |key, value|
     if value < minimum
